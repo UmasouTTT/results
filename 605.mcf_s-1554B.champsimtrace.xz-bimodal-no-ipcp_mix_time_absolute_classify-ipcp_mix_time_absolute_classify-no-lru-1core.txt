@@ -55,7 +55,7 @@ stream:
 stream:times selected: 2272163
 stream:pref_filled: 1533178
 stream:pref_useful: 687324
-stream:pref_late: 266649
+stream:pref_late: 266650
 stream:misses: 58299
 stream:misses_by_poll: 0
 
@@ -86,7 +86,7 @@ NL:misses_by_poll: 0
 total selections: 4547479
 total_filled: 1764070
 total_useful: 855339
-total_late: 409532
+total_late: 409531
 total_polluted: 15167
 total_misses_after_warmup: 868786
 conflicts: 7644
