@@ -1,0 +1,115 @@
+
+*** ChampSim Multicore Out-of-Order Simulator ***
+
+Warmup Instructions: 1000000
+Simulation Instructions: 10000000
+Number of CPUs: 1
+LLC sets: 2048
+LLC ways: 16
+Off-chip DRAM Size: 4096 MB Channels: 1 Width: 64-bit Data Rate: 3200 MT/s
+
+CPU 0 runs /home/hkucs/tyl/ChampSimServer/dpc3_traces/605.mcf_s-782B.champsimtrace.xz
+CPU 0 Bimodal branch predictor
+
+Warmup complete CPU 0 instructions: 1000001 cycles: 453191 (Simulation time: 0 hr 0 min 4 sec) 
+
+Heartbeat CPU 0 instructions: 10000000 cycles: 42641050 heartbeat IPC: 0.234516 cumulative IPC: 0.213331 (Simulation time: 0 hr 0 min 34 sec) 
+Finished CPU 0 instructions: 10000000 cycles: 46258571 cumulative IPC: 0.216176 (Simulation time: 0 hr 0 min 38 sec) 
+
+ChampSim completed all CPUs
+
+Region of Interest Statistics
+
+CPU 0 cumulative IPC: 0.216176 instructions: 10000000 cycles: 46258571
+L1D TOTAL     ACCESS:    2877841  HIT:    1401241  MISS:    1476600
+L1D LOAD      ACCESS:    2251606  HIT:    1124987  MISS:    1126619
+L1D RFO       ACCESS:     255888  HIT:     251063  MISS:       4825
+L1D PREFETCH  ACCESS:     370347  HIT:      25191  MISS:     345156
+L1D WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1D PREFETCH  REQUESTED:     623642  ISSUED:     623428  USEFUL:     352707  USELESS:      45570
+L1D AVERAGE MISS LATENCY: 77.0371 cycles
+L1I TOTAL     ACCESS:    1643890  HIT:    1643888  MISS:          2
+L1I LOAD      ACCESS:    1643890  HIT:    1643888  MISS:          2
+L1I RFO       ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
+L1I WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
+L1I PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
+L1I AVERAGE MISS LATENCY: 114.5 cycles
+L2C TOTAL     ACCESS:    2524412  HIT:     900262  MISS:    1624150
+L2C LOAD      ACCESS:     956361  HIT:     340143  MISS:     616218
+L2C RFO       ACCESS:       4818  HIT:        529  MISS:       4289
+L2C PREFETCH  ACCESS:    1515541  HIT:     511903  MISS:    1003638
+L2C WRITEBACK ACCESS:      47692  HIT:      47687  MISS:          5
+L2C PREFETCH  REQUESTED:    1793217  ISSUED:    1792248  USEFUL:     229791  USELESS:     853966
+L2C AVERAGE MISS LATENCY: 108.866 cycles
+LLC TOTAL     ACCESS:    1670209  HIT:     891544  MISS:     778665
+LLC LOAD      ACCESS:     588363  HIT:     376977  MISS:     211386
+LLC RFO       ACCESS:       4286  HIT:       3893  MISS:        393
+LLC PREFETCH  ACCESS:    1031494  HIT:     464666  MISS:     566828
+LLC WRITEBACK ACCESS:      46066  HIT:      46008  MISS:         58
+LLC PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:      27044  USELESS:     576656
+LLC AVERAGE MISS LATENCY: 163.533 cycles
+Major fault: 0 Minor fault: 10131
+
+stream: 
+stream:times selected: 958331
+stream:pref_filled: 25293
+stream:pref_useful: 4206
+stream:pref_late: 1769
+stream:misses: 4855
+stream:misses_by_poll: 0
+
+CS: 
+CS:times selected: 637506
+CS:pref_filled: 281705
+CS:pref_useful: 279641
+CS:pref_late: 156414
+CS:misses: 212965
+CS:misses_by_poll: 15970
+
+CPLX: 
+CPLX:times selected: 320372
+CPLX:pref_filled: 91186
+CPLX:pref_useful: 68849
+CPLX:pref_late: 9318
+CPLX:misses: 64771
+CPLX:misses_by_poll: 4566
+
+NL_L1: 
+NL:times selected: 797
+NL:pref_filled: 83
+NL:pref_useful: 5
+NL:pref_late: 1
+NL:misses: 113
+NL:misses_by_poll: 6
+
+total selections: 1917006
+total_filled: 398281
+total_useful: 352707
+total_late: 181006
+total_polluted: 20542
+total_misses_after_warmup: 278998
+conflicts: 21333
+
+test: 58608
+
+DRAM Statistics
+ CHANNEL 0
+ RQ ROW_BUFFER_HIT:     315335  ROW_BUFFER_MISS:     463226
+ DBUS_CONGESTED:     285890
+ WQ ROW_BUFFER_HIT:       9432  ROW_BUFFER_MISS:      14988  FULL:          0
+
+ AVG_CONGESTED_CYCLE: 5
+
+CPU 0 Branch Prediction Accuracy: 95.9621% MPKI: 12.0285 Average ROB Occupancy at Mispredict: 44.409
+
+Branch types
+NOT_BRANCH: 7020738 70.2074%
+BRANCH_DIRECT_JUMP: 370085 3.70085%
+BRANCH_INDIRECT: 0 0%
+BRANCH_CONDITIONAL: 2507408 25.0741%
+BRANCH_DIRECT_CALL: 46880 0.4688%
+BRANCH_INDIRECT_CALL: 3838 0.03838%
+BRANCH_RETURN: 50718 0.50718%
+BRANCH_OTHER: 0 0%
+
