@@ -13,8 +13,8 @@ CPU 0 Bimodal branch predictor
 
 Warmup complete CPU 0 instructions: 1000001 cycles: 402250 (Simulation time: 0 hr 0 min 4 sec) 
 
-Heartbeat CPU 0 instructions: 10000000 cycles: 12489089 heartbeat IPC: 0.800699 cumulative IPC: 0.744612 (Simulation time: 0 hr 0 min 30 sec) 
-Finished CPU 0 instructions: 10000000 cycles: 12577438 cumulative IPC: 0.795074 (Simulation time: 0 hr 0 min 32 sec) 
+Heartbeat CPU 0 instructions: 10000000 cycles: 12489089 heartbeat IPC: 0.800699 cumulative IPC: 0.744612 (Simulation time: 0 hr 0 min 31 sec) 
+Finished CPU 0 instructions: 10000000 cycles: 12577438 cumulative IPC: 0.795074 (Simulation time: 0 hr 0 min 33 sec) 
 
 ChampSim completed all CPUs
 
@@ -35,12 +35,12 @@ L1I PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
 L1I WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
 L1I PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
 L1I AVERAGE MISS LATENCY: 148.966 cycles
-L2C TOTAL     ACCESS:    1148829  HIT:     743891  MISS:     404938
+L2C TOTAL     ACCESS:    1148831  HIT:     743893  MISS:     404938
 L2C LOAD      ACCESS:      86870  HIT:      49893  MISS:      36977
 L2C RFO       ACCESS:      52313  HIT:       5308  MISS:      47005
-L2C PREFETCH  ACCESS:     820121  HIT:     499182  MISS:     320939
+L2C PREFETCH  ACCESS:     820123  HIT:     499184  MISS:     320939
 L2C WRITEBACK ACCESS:     189525  HIT:     189508  MISS:         17
-L2C PREFETCH  REQUESTED:    1564037  ISSUED:    1314460  USEFUL:      44999  USELESS:     304730
+L2C PREFETCH  REQUESTED:    1564043  ISSUED:    1314466  USEFUL:      44999  USELESS:     304730
 L2C AVERAGE MISS LATENCY: 451.866 cycles
 LLC TOTAL     ACCESS:     587791  HIT:     229298  MISS:     358493
 LLC LOAD      ACCESS:      29730  HIT:       5287  MISS:      24443
@@ -86,7 +86,7 @@ NL:misses_by_poll: 0
 total selections: 1135652
 total_filled: 296542
 total_useful: 245478
-total_late: 58513
+total_late: 58515
 total_polluted: 2689
 total_misses_after_warmup: 163873
 conflicts: 32875
