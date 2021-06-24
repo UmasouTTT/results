@@ -11,10 +11,10 @@ Off-chip DRAM Size: 4096 MB Channels: 1 Width: 64-bit Data Rate: 3200 MT/s
 CPU 0 runs /home/hkucs/tyl/ChampSimServer/dpc3_traces/602.gcc_s-734B.champsimtrace.xz
 CPU 0 Bimodal branch predictor
 
-Warmup complete CPU 0 instructions: 1000004 cycles: 508194 (Simulation time: 0 hr 0 min 3 sec) 
+Warmup complete CPU 0 instructions: 1000004 cycles: 508194 (Simulation time: 0 hr 0 min 5 sec) 
 
-Heartbeat CPU 0 instructions: 10000000 cycles: 11536966 heartbeat IPC: 0.866779 cumulative IPC: 0.816047 (Simulation time: 0 hr 0 min 19 sec) 
-Finished CPU 0 instructions: 10000001 cycles: 12237974 cumulative IPC: 0.817129 (Simulation time: 0 hr 0 min 21 sec) 
+Heartbeat CPU 0 instructions: 10000000 cycles: 11536966 heartbeat IPC: 0.866779 cumulative IPC: 0.816047 (Simulation time: 0 hr 0 min 20 sec) 
+Finished CPU 0 instructions: 10000001 cycles: 12237974 cumulative IPC: 0.817129 (Simulation time: 0 hr 0 min 22 sec) 
 
 ChampSim completed all CPUs
 
@@ -35,12 +35,12 @@ L1I PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
 L1I WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
 L1I PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
 L1I AVERAGE MISS LATENCY: -nan cycles
-L2C TOTAL     ACCESS:     895552  HIT:     802805  MISS:      92747
+L2C TOTAL     ACCESS:     895486  HIT:     802739  MISS:      92747
 L2C LOAD      ACCESS:       8353  HIT:       5479  MISS:       2874
 L2C RFO       ACCESS:          0  HIT:          0  MISS:          0
-L2C PREFETCH  ACCESS:     886143  HIT:     796270  MISS:      89873
+L2C PREFETCH  ACCESS:     886077  HIT:     796204  MISS:      89873
 L2C WRITEBACK ACCESS:       1056  HIT:       1056  MISS:          0
-L2C PREFETCH  REQUESTED:     974554  ISSUED:     973812  USEFUL:       1530  USELESS:      90355
+L2C PREFETCH  REQUESTED:     974476  ISSUED:     973734  USEFUL:       1530  USELESS:      90356
 L2C AVERAGE MISS LATENCY: 125.23 cycles
 LLC TOTAL     ACCESS:      93084  HIT:       1019  MISS:      92065
 LLC LOAD      ACCESS:       2872  HIT:         37  MISS:       2835
