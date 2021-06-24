@@ -13,7 +13,7 @@ CPU 0 Bimodal branch predictor
 
 Warmup complete CPU 0 instructions: 1000001 cycles: 417751 (Simulation time: 0 hr 0 min 3 sec) 
 
-Heartbeat CPU 0 instructions: 10000000 cycles: 19165810 heartbeat IPC: 0.521762 cumulative IPC: 0.48005 (Simulation time: 0 hr 0 min 32 sec) 
+Heartbeat CPU 0 instructions: 10000000 cycles: 19165810 heartbeat IPC: 0.521762 cumulative IPC: 0.48005 (Simulation time: 0 hr 0 min 31 sec) 
 Finished CPU 0 instructions: 10000001 cycles: 21120913 cumulative IPC: 0.473464 (Simulation time: 0 hr 0 min 35 sec) 
 
 ChampSim completed all CPUs
@@ -40,7 +40,7 @@ L2C LOAD      ACCESS:      90396  HIT:       9981  MISS:      80415
 L2C RFO       ACCESS:      16530  HIT:       2570  MISS:      13960
 L2C PREFETCH  ACCESS:     151602  HIT:       8509  MISS:     143093
 L2C WRITEBACK ACCESS:      72288  HIT:      72154  MISS:        134
-L2C PREFETCH  REQUESTED:      25972  ISSUED:      25972  USEFUL:       7282  USELESS:     141463
+L2C PREFETCH  REQUESTED:      25962  ISSUED:      25962  USEFUL:       7282  USELESS:     141463
 L2C AVERAGE MISS LATENCY: 201.419 cycles
 LLC TOTAL     ACCESS:     304261  HIT:      67217  MISS:     237044
 LLC LOAD      ACCESS:      80175  HIT:        423  MISS:      79752

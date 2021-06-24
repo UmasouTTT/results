@@ -35,12 +35,12 @@ L1I PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
 L1I WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
 L1I PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
 L1I AVERAGE MISS LATENCY: 67 cycles
-L2C TOTAL     ACCESS:       4427  HIT:       1757  MISS:       2670
+L2C TOTAL     ACCESS:       4248  HIT:       1578  MISS:       2670
 L2C LOAD      ACCESS:       2019  HIT:        693  MISS:       1326
 L2C RFO       ACCESS:         65  HIT:          9  MISS:         56
-L2C PREFETCH  ACCESS:       2213  HIT:        925  MISS:       1288
+L2C PREFETCH  ACCESS:       2034  HIT:        746  MISS:       1288
 L2C WRITEBACK ACCESS:        130  HIT:        130  MISS:          0
-L2C PREFETCH  REQUESTED:       2212  ISSUED:       2212  USEFUL:        264  USELESS:          0
+L2C PREFETCH  REQUESTED:       1597  ISSUED:       1597  USEFUL:        264  USELESS:          0
 L2C AVERAGE MISS LATENCY: 160.22 cycles
 LLC TOTAL     ACCESS:       2670  HIT:          0  MISS:       2670
 LLC LOAD      ACCESS:       1266  HIT:          0  MISS:       1266
