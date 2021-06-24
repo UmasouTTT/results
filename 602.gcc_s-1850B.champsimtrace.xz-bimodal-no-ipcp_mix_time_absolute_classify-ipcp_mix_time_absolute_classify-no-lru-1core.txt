@@ -11,9 +11,9 @@ Off-chip DRAM Size: 4096 MB Channels: 1 Width: 64-bit Data Rate: 3200 MT/s
 CPU 0 runs /home/hkucs/tyl/ChampSimServer/dpc3_traces/602.gcc_s-1850B.champsimtrace.xz
 CPU 0 Bimodal branch predictor
 
-Warmup complete CPU 0 instructions: 1000001 cycles: 486104 (Simulation time: 0 hr 0 min 4 sec) 
+Warmup complete CPU 0 instructions: 1000001 cycles: 486106 (Simulation time: 0 hr 0 min 4 sec) 
 
-Heartbeat CPU 0 instructions: 10000002 cycles: 14294340 heartbeat IPC: 0.699578 cumulative IPC: 0.651785 (Simulation time: 0 hr 0 min 19 sec) 
+Heartbeat CPU 0 instructions: 10000002 cycles: 14294342 heartbeat IPC: 0.699578 cumulative IPC: 0.651785 (Simulation time: 0 hr 0 min 19 sec) 
 Finished CPU 0 instructions: 10000000 cycles: 15336195 cumulative IPC: 0.652052 (Simulation time: 0 hr 0 min 21 sec) 
 
 ChampSim completed all CPUs
@@ -40,21 +40,21 @@ L2C LOAD      ACCESS:      20497  HIT:      16833  MISS:       3664
 L2C RFO       ACCESS:          8  HIT:          8  MISS:          0
 L2C PREFETCH  ACCESS:     847198  HIT:     665615  MISS:     181583
 L2C WRITEBACK ACCESS:        645  HIT:        645  MISS:          0
-L2C PREFETCH  REQUESTED:    1117783  ISSUED:    1117442  USEFUL:       1805  USELESS:     190928
+L2C PREFETCH  REQUESTED:    1117783  ISSUED:    1117442  USEFUL:       1798  USELESS:     190921
 L2C AVERAGE MISS LATENCY: 118.349 cycles
 LLC TOTAL     ACCESS:     185528  HIT:       1166  MISS:     184362
 LLC LOAD      ACCESS:       3641  HIT:         29  MISS:       3612
 LLC RFO       ACCESS:          0  HIT:          0  MISS:          0
 LLC PREFETCH  ACCESS:     181606  HIT:        856  MISS:     180750
 LLC WRITEBACK ACCESS:        281  HIT:        281  MISS:          0
-LLC PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:         11  USELESS:     167504
+LLC PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:         11  USELESS:     167490
 LLC AVERAGE MISS LATENCY: 88.5326 cycles
 Major fault: 0 Minor fault: 3401
 
 stream: 
 stream:times selected: 1098199
-stream:pref_filled: 209601
-stream:pref_useful: 175209
+stream:pref_filled: 209602
+stream:pref_useful: 175210
 stream:pref_late: 2617
 stream:misses: 2417
 stream:misses_by_poll: 0
@@ -89,7 +89,7 @@ total_useful: 230920
 total_late: 7899
 total_polluted: 659
 total_misses_after_warmup: 28667
-conflicts: 12408
+conflicts: 12409
 
 test: 164558
 
