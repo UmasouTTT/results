@@ -86,7 +86,7 @@ NL:misses_by_poll: 0
 total selections: 460770
 total_filled: 211975
 total_useful: 123857
-total_late: 30304
+total_late: 30303
 total_polluted: 1256
 total_misses_after_warmup: 106744
 conflicts: 853733

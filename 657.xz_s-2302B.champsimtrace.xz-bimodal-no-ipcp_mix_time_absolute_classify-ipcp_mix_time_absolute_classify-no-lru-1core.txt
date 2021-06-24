@@ -13,8 +13,8 @@ CPU 0 Bimodal branch predictor
 
 Warmup complete CPU 0 instructions: 1000004 cycles: 323882 (Simulation time: 0 hr 0 min 4 sec) 
 
-Heartbeat CPU 0 instructions: 10000002 cycles: 12080501 heartbeat IPC: 0.82778 cumulative IPC: 0.765526 (Simulation time: 0 hr 0 min 17 sec) 
-Finished CPU 0 instructions: 10000003 cycles: 12912388 cumulative IPC: 0.77445 (Simulation time: 0 hr 0 min 19 sec) 
+Heartbeat CPU 0 instructions: 10000002 cycles: 12080501 heartbeat IPC: 0.82778 cumulative IPC: 0.765526 (Simulation time: 0 hr 0 min 19 sec) 
+Finished CPU 0 instructions: 10000003 cycles: 12912388 cumulative IPC: 0.77445 (Simulation time: 0 hr 0 min 20 sec) 
 
 ChampSim completed all CPUs
 
@@ -55,7 +55,7 @@ stream:
 stream:times selected: 165166
 stream:pref_filled: 14212
 stream:pref_useful: 2726
-stream:pref_late: 403
+stream:pref_late: 406
 stream:misses: 1035
 stream:misses_by_poll: 0
 
@@ -63,7 +63,7 @@ CS:
 CS:times selected: 18621
 CS:pref_filled: 1727
 CS:pref_useful: 1376
-CS:pref_late: 1
+CS:pref_late: 0
 CS:misses: 37
 CS:misses_by_poll: 42
 
@@ -79,14 +79,14 @@ NL_L1:
 NL:times selected: 554
 NL:pref_filled: 109
 NL:pref_useful: 30
-NL:pref_late: 2
+NL:pref_late: 1
 NL:misses: 79
 NL:misses_by_poll: 4
 
 total selections: 330478
 total_filled: 22337
 total_useful: 4933
-total_late: 5818
+total_late: 5904
 total_polluted: 287
 total_misses_after_warmup: 13686
 conflicts: 242273

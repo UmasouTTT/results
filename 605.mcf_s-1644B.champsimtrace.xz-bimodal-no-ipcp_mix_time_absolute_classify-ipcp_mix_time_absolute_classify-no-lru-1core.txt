@@ -11,10 +11,10 @@ Off-chip DRAM Size: 4096 MB Channels: 1 Width: 64-bit Data Rate: 3200 MT/s
 CPU 0 runs /home/hkucs/tyl/ChampSimServer/dpc3_traces/605.mcf_s-1644B.champsimtrace.xz
 CPU 0 Bimodal branch predictor
 
-Warmup complete CPU 0 instructions: 1000001 cycles: 714893 (Simulation time: 0 hr 0 min 5 sec) 
+Warmup complete CPU 0 instructions: 1000001 cycles: 714893 (Simulation time: 0 hr 0 min 6 sec) 
 
-Heartbeat CPU 0 instructions: 10000003 cycles: 48546172 heartbeat IPC: 0.20599 cumulative IPC: 0.188161 (Simulation time: 0 hr 0 min 47 sec) 
-Finished CPU 0 instructions: 10000000 cycles: 52969731 cumulative IPC: 0.188787 (Simulation time: 0 hr 0 min 52 sec) 
+Heartbeat CPU 0 instructions: 10000003 cycles: 48546172 heartbeat IPC: 0.20599 cumulative IPC: 0.188161 (Simulation time: 0 hr 0 min 55 sec) 
+Finished CPU 0 instructions: 10000000 cycles: 52969731 cumulative IPC: 0.188787 (Simulation time: 0 hr 1 min 1 sec) 
 
 ChampSim completed all CPUs
 

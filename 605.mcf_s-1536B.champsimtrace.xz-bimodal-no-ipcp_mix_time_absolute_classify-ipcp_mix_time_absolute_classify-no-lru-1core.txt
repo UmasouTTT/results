@@ -11,10 +11,10 @@ Off-chip DRAM Size: 4096 MB Channels: 1 Width: 64-bit Data Rate: 3200 MT/s
 CPU 0 runs /home/hkucs/tyl/ChampSimServer/dpc3_traces/605.mcf_s-1536B.champsimtrace.xz
 CPU 0 Bimodal branch predictor
 
-Warmup complete CPU 0 instructions: 1000001 cycles: 327898 (Simulation time: 0 hr 0 min 3 sec) 
+Warmup complete CPU 0 instructions: 1000001 cycles: 327898 (Simulation time: 0 hr 0 min 5 sec) 
 
-Heartbeat CPU 0 instructions: 10000002 cycles: 58504673 heartbeat IPC: 0.170927 cumulative IPC: 0.154701 (Simulation time: 0 hr 0 min 40 sec) 
-Finished CPU 0 instructions: 10000000 cycles: 64756916 cumulative IPC: 0.154424 (Simulation time: 0 hr 0 min 45 sec) 
+Heartbeat CPU 0 instructions: 10000002 cycles: 58504673 heartbeat IPC: 0.170927 cumulative IPC: 0.154701 (Simulation time: 0 hr 4 min 8 sec) 
+Finished CPU 0 instructions: 10000000 cycles: 64756916 cumulative IPC: 0.154424 (Simulation time: 0 hr 4 min 56 sec) 
 
 ChampSim completed all CPUs
 
@@ -55,7 +55,7 @@ stream:
 stream:times selected: 12301
 stream:pref_filled: 11330
 stream:pref_useful: 1902
-stream:pref_late: 446
+stream:pref_late: 167
 stream:misses: 1101
 stream:misses_by_poll: 0
 
@@ -63,7 +63,7 @@ CS:
 CS:times selected: 72
 CS:pref_filled: 187
 CS:pref_useful: 12
-CS:pref_late: 27
+CS:pref_late: 0
 CS:misses: 73
 CS:misses_by_poll: 18
 
@@ -71,7 +71,7 @@ CPLX:
 CPLX:times selected: 12097
 CPLX:pref_filled: 2760
 CPLX:pref_useful: 1231
-CPLX:pref_late: 102
+CPLX:pref_late: 97
 CPLX:misses: 8582
 CPLX:misses_by_poll: 256
 
@@ -79,14 +79,14 @@ NL_L1:
 NL:times selected: 13
 NL:pref_filled: 12
 NL:pref_useful: 6
-NL:pref_late: 164
+NL:pref_late: 0
 NL:misses: 9
 NL:misses_by_poll: 1
 
 total selections: 24483
 total_filled: 14289
 total_useful: 3151
-total_late: 25105
+total_late: 25749
 total_polluted: 275
 total_misses_after_warmup: 9730
 conflicts: 7
