@@ -13,7 +13,7 @@ CPU 0 Bimodal branch predictor
 
 Warmup complete CPU 0 instructions: 1000001 cycles: 417751 (Simulation time: 0 hr 0 min 3 sec) 
 
-Heartbeat CPU 0 instructions: 10000000 cycles: 19165810 heartbeat IPC: 0.521762 cumulative IPC: 0.48005 (Simulation time: 0 hr 0 min 31 sec) 
+Heartbeat CPU 0 instructions: 10000000 cycles: 19165810 heartbeat IPC: 0.521762 cumulative IPC: 0.48005 (Simulation time: 0 hr 0 min 32 sec) 
 Finished CPU 0 instructions: 10000001 cycles: 21120913 cumulative IPC: 0.473464 (Simulation time: 0 hr 0 min 35 sec) 
 
 ChampSim completed all CPUs
@@ -35,17 +35,17 @@ L1I PREFETCH  ACCESS:          0  HIT:          0  MISS:          0
 L1I WRITEBACK ACCESS:          0  HIT:          0  MISS:          0
 L1I PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:          0  USELESS:          0
 L1I AVERAGE MISS LATENCY: 127.786 cycles
-L2C TOTAL     ACCESS:     330815  HIT:      93213  MISS:     237602
-L2C LOAD      ACCESS:      90396  HIT:       9980  MISS:      80416
+L2C TOTAL     ACCESS:     330816  HIT:      93214  MISS:     237602
+L2C LOAD      ACCESS:      90396  HIT:       9981  MISS:      80415
 L2C RFO       ACCESS:      16530  HIT:       2570  MISS:      13960
-L2C PREFETCH  ACCESS:     151601  HIT:       8509  MISS:     143092
+L2C PREFETCH  ACCESS:     151602  HIT:       8509  MISS:     143093
 L2C WRITEBACK ACCESS:      72288  HIT:      72154  MISS:        134
-L2C PREFETCH  REQUESTED:      25966  ISSUED:      25966  USEFUL:       7281  USELESS:     141463
+L2C PREFETCH  REQUESTED:      25972  ISSUED:      25972  USEFUL:       7282  USELESS:     141463
 L2C AVERAGE MISS LATENCY: 201.419 cycles
 LLC TOTAL     ACCESS:     304261  HIT:      67217  MISS:     237044
-LLC LOAD      ACCESS:      80176  HIT:        424  MISS:      79752
+LLC LOAD      ACCESS:      80175  HIT:        423  MISS:      79752
 LLC RFO       ACCESS:      13817  HIT:         11  MISS:      13806
-LLC PREFETCH  ACCESS:     143475  HIT:         59  MISS:     143416
+LLC PREFETCH  ACCESS:     143476  HIT:         60  MISS:     143416
 LLC WRITEBACK ACCESS:      66793  HIT:      66723  MISS:         70
 LLC PREFETCH  REQUESTED:          0  ISSUED:          0  USEFUL:         82  USELESS:     136656
 LLC AVERAGE MISS LATENCY: 170.029 cycles
