@@ -40,7 +40,7 @@ L2C LOAD      ACCESS:        212  HIT:         10  MISS:        202
 L2C RFO       ACCESS:       4615  HIT:          0  MISS:       4615
 L2C PREFETCH  ACCESS:      41239  HIT:      33820  MISS:       7419
 L2C WRITEBACK ACCESS:       4611  HIT:       4611  MISS:          0
-L2C PREFETCH  REQUESTED:      44284  ISSUED:      44284  USEFUL:         16  USELESS:       3541
+L2C PREFETCH  REQUESTED:      44298  ISSUED:      44298  USEFUL:         19  USELESS:       3544
 L2C AVERAGE MISS LATENCY: 114.793 cycles
 LLC TOTAL     ACCESS:      14104  HIT:       1868  MISS:      12236
 LLC LOAD      ACCESS:        202  HIT:          0  MISS:        202
