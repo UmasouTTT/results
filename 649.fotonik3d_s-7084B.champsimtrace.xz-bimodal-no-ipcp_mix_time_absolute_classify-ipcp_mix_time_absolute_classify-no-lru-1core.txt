@@ -14,7 +14,7 @@ CPU 0 Bimodal branch predictor
 Warmup complete CPU 0 instructions: 1000001 cycles: 383117 (Simulation time: 0 hr 0 min 4 sec) 
 
 Heartbeat CPU 0 instructions: 10000001 cycles: 5893041 heartbeat IPC: 1.69692 cumulative IPC: 1.63342 (Simulation time: 0 hr 0 min 24 sec) 
-Finished CPU 0 instructions: 10000001 cycles: 6125279 cumulative IPC: 1.63258 (Simulation time: 0 hr 0 min 27 sec) 
+Finished CPU 0 instructions: 10000001 cycles: 6125279 cumulative IPC: 1.63258 (Simulation time: 0 hr 0 min 26 sec) 
 
 ChampSim completed all CPUs
 
